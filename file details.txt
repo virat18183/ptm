@@ -1,0 +1,46 @@
+TYPE OF THE FILE:
+-	:	regular
+d	:	folder
+c	:	character file
+b	:	blocked file
+|	:	pipefiles
+================================
+PERMISSIONS:
+r	:	read		:	4
+w	:	write	:	2
+x	:	execute	:	1
+-	:	nothing	:	0
+
+
+user:	rw-	:		4+2+0 = 6
+group:	rw-	:		4+2+0 = 6
+others:	r-- 	:		4+0+0 = 4
+=============================
+								664
+============================ 
+rwx	r-x	--x	:	751
+---	r--	-w-	:	042
+============================
+
+ACL:	(Acess Control List)
+
+
+1 
+==============================
+OWNERS:
+
+USER	:	flm 
+GROUP	:	flm 
+==============================
+DATA IN A FILE (NO OF CHARACTERS INCLUDING SPACES)
+
+
+0
+======================================
+FILE CREATION DETAILS
+
+ Oct 27 15:30 
+==========================================
+FILE NAME:
+
+file1
